@@ -784,10 +784,10 @@ births$agegrp <-
   )
 with(births, table(agegrp))
 ```
-By default the factor levels are labelled `[20-25)`,
-`[25-30)`, etc., where `[20-25)` refers to the interval
+By default the factor levels are labelled `[20-30)`,
+`[30-35)`, etc., where `[20-30)` refers to the interval
 which includes the left hand end (20) but not the right hand end
-(25). This is the reason for `right=FALSE`. When `right=TRUE`
+(30). This is the reason for `right=FALSE`. When `right=TRUE`
 (which is the default) the intervals include the right hand end but
 not the left hand.
 
